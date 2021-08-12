@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: f;
+    src: url("q.ttf");
+}
+body{
+    background-color:   rgba(10, 19, 46, 0.904);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000000d1;
+}
+
+.post{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 500px;
+    border-radius: 10px;
+    background: rgb(252, 247, 247);
+}
+.head{
+    display: flex;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-between;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.name_profile{
+    display: flex;
+    align-items: center;
+}
+.q{
+    margin-left: 10px;
+}
+.q p{
+    color: grey;
+    font-size: 15px;
+}
+.svg{
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+
+}
+.body{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.body p{
+    font-size: 14px;
+    
+}
+.post_image{
+    margin: auto;
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.btm_icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left_icon{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.margin{
+    margin-left: 15px;
+}
+.right_icon{
+    margin-top: 15px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(226, 226, 226);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.ico{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.in{
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+
